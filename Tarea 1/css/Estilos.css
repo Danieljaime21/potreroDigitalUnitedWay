@@ -1,0 +1,18 @@
+/* h1{
+  color: white; background-color: red; font-size: 35px;
+}
+h2 {
+  color: white; background-color: red; font-size: 20px;
+}
+p {
+  background-color: green; color: white; font-size: 20px;
+} Selectores de etiqueta que modifican propiedades como color, color de fondo y tamaño de fuente */
+/* img {
+  width: 400px;height: 400px;
+} En el archivo HTML puse directamente una foto en la resolución que pedía, pero me pareció bien agregar un selector dedicado y dos propiedades, una de ancho y otra de alto, como una forma que investigué para modificar fotos si hace falta*/
+/* #sinsubrayadoycolornegro {
+  text-decoration: none; color: black;
+} Usé un selector de id en el link del archivo HTML para usar las propiedades de color y de decoración de texto (esta última para sacar el subrayado)*/
+/* a: hover {
+  color: green;
+} Un selector seguido del pseudo-selector "hover" con la propiedad de color para cambiar el link cuando el mouse pasa por encima de él */
