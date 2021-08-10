@@ -1,0 +1,51 @@
+body {
+  margin: 0px
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 75vh;
+}
+footer {
+display: flex;
+align-items: flex-end;
+height: 25vh;
+width: 100%;
+}
+.texto__izquierda{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+width: 100vw;
+height: 100%;
+
+}
+.foto__usa {
+  display: flex;
+flex-direction: column;
+width: 60vw;
+height: 100%;
+}
+
+p {
+  color: grey;
+font-size: 25px;
+font-family: sans-serif;
+}
+h1 {
+font-family: sans-serif;
+font-weight: 800;
+}
+
+#párrafo__chico {
+  font-size: 22px;
+  font-weight: lighter;
+  margin: 0px;
+  padding: 0px;
+}
+#texto__inclinado {
+  font-style: italic;
+opacity: 0.8;
+font-weight: bold;
+}
