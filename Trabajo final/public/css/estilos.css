@@ -1,0 +1,84 @@
+/*GENERAL*/
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+/*HEADER*/
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+width: 100%;
+height: 6vh;
+background-color: #F5FEFC;
+box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+color: rgb(49 61 59);
+font-family: "roboto-light", sans-serif;
+font-size: 20px;
+}
+
+.LOGO {
+  justify-content: center;
+  height: 80%;
+  width: 8%;
+  padding-left: 40px;
+}
+
+.contacto-header {
+  margin-right: 30px;
+}
+
+/*MAIN*/
+main {
+/*display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+width: 100%;*/
+
+}
+
+.contenedor  {
+  position: relative;
+  text-align: center;
+}
+
+.texto-main{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/*FOOTER*/
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-content: center;
+  background-color: #313D3B;
+}
+.texto-footer {
+  font-family: "roboto-light",sans-serif;
+  color: #F5FEFC;
+}
